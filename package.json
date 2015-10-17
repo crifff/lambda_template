@@ -1,0 +1,29 @@
+{
+  "name": "lamtemp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.2.10",
+    "babel": "^5.8.23",
+    "del": "^2.0.2",
+    "espower-babel": "^3.3.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.0.2",
+    "minimist": "^1.2.0",
+    "mocha": "^2.3.3",
+    "node-aws-lambda": "^0.1.6",
+    "power-assert": "^1.1.0",
+    "run-sequence": "^1.1.4",
+    "sinon": "^1.17.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
