@@ -9,7 +9,7 @@ var awsLambda = require("node-aws-lambda");
 var src_dir = './src/**/*.es6';
 gulp.task('build', function () {
     return gulp.src(src_dir)
-        .pipe(babel())
+        .pipe(babel({optional: ['runtime']}))
         .pipe(gulp.dest('lib'));
 });
 

@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+	"directories": {
+	  "test": "test/"
+  },
   "devDependencies": {
     "aws-sdk": "^2.2.10",
     "babel": "^5.8.23",
@@ -24,6 +27,6 @@
     "sinon": "^1.17.1"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "babel-runtime": "^5.8.25"
   }
 }
