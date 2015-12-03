@@ -1,16 +1,5 @@
-import Hoge from "./hoge"
+import Main from "./main"
 
-class Main {
-    constructor(event, context) {
-        this.event = event;
-        this.context = context;
-    }
-
-    invoke() {
-        this.context.succeed(1234);
-    }
-}
-
-exports.handler = (event, context) => {
-    (new Main(event, context)).invoke();
+exports.handler = function (event, context) {
+    (new Main).handler(event, context)
 };
