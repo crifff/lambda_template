@@ -1,12 +1,13 @@
 {
   "name": "lamda-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "aws lambda bootstrap for ES6 & WebStorm",
+  "repository": "https://github.com/hoshina85/lambda_template",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test/**/*.es6"
   },
-  "author": "",
+  "author": "crifff",
   "license": "ISC",
   "directories": {
     "test": "test/"
