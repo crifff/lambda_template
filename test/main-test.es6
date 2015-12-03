@@ -3,7 +3,8 @@ import Main from '../src/main'
 
 describe("Main.handler", ()=> {
     it("should succeed", (done)=> {
-        Main.handler({}, {
+        let main = new Main;
+        main.handler({}, {
             succeed: function () {
                 done();
             }
@@ -13,6 +14,16 @@ describe("Main.handler", ()=> {
 
 describe("Main.square", ()=> {
     it("return 4", ()=> {
-        assert(Main.square(2) == 4);
+        let main = new Main;
+        assert(main.square(2) == 4);
+    });
+});
+
+describe("Main.later", ()=> {
+    it("return promise", (done)=> {
+        let main = new Main;
+        main.wait(100).then(function () {
+            done();
+        });
     });
 });

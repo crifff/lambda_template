@@ -5,7 +5,7 @@ module.exports = {
 	region: 'ap-northeast-1',
 	handler: 'index.handler',
 	role: "arn:aws:iam::313897385846:role/lambda_basic_execution",
-	functionName:"hogeFunc",
+	functionName:"hogeFunc2",
 	timeout: 10,
 	memorySize: 128
 	//eventSource: {

@@ -1,1 +1,1 @@
---compilers es6:espower-babel/guess
+--require babel-register
